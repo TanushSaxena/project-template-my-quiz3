@@ -53,6 +53,10 @@ class Quiz {
 //check the condition whether player answer and correct ans are equal
 //if equal fill with green 
 //if not equal fill with red
+if(correctAns=== allContestants[plr].Answer)
+fill("green")
+else
+fill("red")
         
 
         display_Answers+=30;

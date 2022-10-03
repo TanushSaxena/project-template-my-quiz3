@@ -22,9 +22,11 @@ function draw(){
   background("pink");
   if(contestantCount === 2){
     //update the quiz
+    quiz.update()
   }
   if(gameState === 1){
     clear();
+    quiz.play()
     //update the play 
   }
 }
